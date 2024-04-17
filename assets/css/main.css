@@ -226,7 +226,7 @@ section {
   font-family: var(--font-secondary);
 }
 
- /* .btn-getstarted,
+ .btn-getstarted,
  .btn-getstarted:focus {
   font-size: 12px;
   color: var(--color-white);
@@ -235,7 +235,7 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   font-family: var(--font-secondary);
-} */
+}
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
