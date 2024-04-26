@@ -780,6 +780,25 @@ header .current-date{
 
 /* calendar End */
 
+/* Purchase */
+.btn-purchase{
+ font-size: 12px;
+ color: #fff;
+ background: #056049;
+ padding: 3px 4px;
+ border-radius: 4px;
+ transition: 0.3s;
+ font-family: var(--font-secondary);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.btn-purchase:hover{
+  background: #0c9e79;
+  color: #fff;
+}
+
 .news-logo img{
   transition: 0.3s;
   filter: grayscale(100);
