@@ -3454,3 +3454,30 @@ header .current-date{
   background: #022D22;
   text-decoration: none;
 }
+
+
+/* Cart style */
+
+.cart-count{
+  width: 120px;
+  height: 40px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.cart-count span{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cart-count span.num{
+  border-left: 1px solid #6f6f6f42;
+  border-right: 1px solid #6f6f6f42;
+  pointer-events: none;
+}
